@@ -1,0 +1,24 @@
+{
+  "name": "babel-casperjs",
+  "version": "1.0.0",
+  "description": "CasperJS with Babel and Babel Polyfill.",
+  "main": "index.js",
+  "author": "TheRuky",
+  "license": "MIT",
+  "scripts": {
+    "babel": "babel src -d bin",
+    "test": "casperjs",
+    "clean": "rimraf bin",
+    "build": "yarn clean && yarn babel",
+    "start": "yarn clean && yarn build && yarn test"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
+  }
+}
