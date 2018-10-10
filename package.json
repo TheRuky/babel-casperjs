@@ -1,7 +1,7 @@
 {
   "name": "babel-casperjs",
   "version": "1.0.0",
-  "description": "CasperJS with Babel and Babel Polyfill.",
+  "description": "CasperJS runner with Babel and Babel Polyfill.",
   "main": "index.js",
   "author": "TheRuky",
   "license": "MIT",
