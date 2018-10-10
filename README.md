@@ -11,7 +11,7 @@ To run Babel and/or CasperJS, use scripts from `package.json`.
 
 | Script        | Description   | Arguments     |
 | ------------- |:-------------:|:-------------:|
-| `babel`      | Runs Babel and transpiles the code. | - |
+| `babel`      | Runs Babel and transpiles the code to destination folder (`bin` by default). | - |
 | `build`      | Runs `clean` and `babel` scripts. | - |
 | `clean` | Deletes destination folder (`bin` by default). | - |
 | `start` | Runs `clean`, `babel` and `test` scripts. | File to run (e.g. `bin/index.js`) |
